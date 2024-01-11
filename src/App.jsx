@@ -5,13 +5,14 @@ import './App.css'
 import TestComponent from './TestComponent'
 
 const testObject = { name: "musa", brother: "mohammed" }
+const testList = ["gustav", "muzan"];
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <TestComponent {...testObject} />
+      <TestComponent prop={testList} />
     </>
   )
 }
