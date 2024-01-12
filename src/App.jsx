@@ -19,8 +19,7 @@ function App() {
       <Greetings />
       <Clicker message="btn 1 is clicked" buttonText="btn 1" />
       <p></p>
-      <Clicker message="btn 2 is clicked" buttonText="btn 2" />
-      {/* <TestComponent prop={testList} /> */}
+
     </>
   )
 }

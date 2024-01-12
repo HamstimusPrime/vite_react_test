@@ -1,4 +1,5 @@
 import PropTypes from "prop-types"
+import "./Clicker.css"
 
 export default function Clicker({ message, buttonText }) {
     function btnClicked() {
@@ -9,7 +10,7 @@ export default function Clicker({ message, buttonText }) {
     return (
         <>
             <button onClick={btnClicked}>{buttonText}</button>
-            {/* <h1>{message}</h1> */}
+
 
         </>
     )
