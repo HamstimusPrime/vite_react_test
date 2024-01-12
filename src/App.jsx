@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import TestComponent from './TestComponent'
+import Clicker from './Clicker'
 
 const testObject = { name: "musa", brother: "mohammed" }
 const testList = ["gustav", "muzan"];
@@ -12,7 +13,10 @@ function App() {
 
   return (
     <>
-      <TestComponent prop={testList} />
+      <Clicker message="btn 1 is clicked" buttonText="btn 1" />
+      <p></p>
+      <Clicker message="btn 2 is clicked" buttonText="btn 2" />
+      {/* <TestComponent prop={testList} /> */}
     </>
   )
 }
